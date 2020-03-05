@@ -11,6 +11,7 @@ class App extends Component {
             exercises
         };
     }
+    
 
     getExerciseByCategory = category => {
         return this.state.exercises.filter(ex => ex.categories === category);
